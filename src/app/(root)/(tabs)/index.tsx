@@ -4,7 +4,7 @@ import { Link } from "expo-router";
 export default function HomeScreen() {
   return (
     <View>
-      <Text className="font-bold my-10 font-rubik">
+      <Text className="font-bold font-rubik-bold">
         Welcome to Real Estate app
       </Text>
       <Link href="/sign-in">Sign in</Link>
